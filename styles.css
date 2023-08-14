@@ -5,32 +5,16 @@
 --fonte-principal: "Poppins";
 --fonte-secundaria: "Josefin Sans";
 }
-body{
-    background-color: var(--cor-de-fundo);
-}
-h1{
-    background-color: white;
-}
-.container__titulo{
-    display: none;
+...
+@media screen and (min-width: 1024px) {
+    /* ...propriedades css... */
     }
-        @media screen and (min-width: 1024px){
-        .container__titulo{
-        font-family: var(--fonte-secundaria);
-        font-size: 30px;
-        font-weight: 400;
-        display: block;
-    }
-    .container__titulo--negrito{
-    font-weight: 700;
-    }
-                }
-                :root{
-                    --cor-de-fundo: #EBECEE;
-                    --branco: #FFFFFF;
-                    --amarelo: #FECD2F;
-                    --roxo-degrade:
-                    
-                    linear-gradient(94.49deg, #733887 35.48%, #C75EEB 143.32%);
-                    
-                    }
+    :root{
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
+        --amarelo: #FECD2F;
+        --roxo-degrade:
+        
+        linear-gradient(94.49deg, #733887 35.48%, #C75EEB 143.32%);
+        
+        }
