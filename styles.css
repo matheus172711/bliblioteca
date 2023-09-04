@@ -16,10 +16,6 @@
         --roxo-degrade:
         
         linear-gradient(94.49deg, #733887 35.48%, #C75EEB 143.32%);
-        
-        }
-    :root{
-        --preto: #000000;
     }
     .cabeçalho__menu-hamburguer{
         width: 24px;
@@ -31,7 +27,10 @@
         .cabeçalho{
         background-color: var(--branco);
         }
-        @media screen and (min-width: 1024px){
+        .opções{
+            display: none;
+        }
+        @media screen and (min-width: 1024px) {
             .container__titulo{
             font-family: var(--fonte-secundaria);
             font-size: 30px;
@@ -44,4 +43,7 @@
             ...
             .container__titulo{
             display: none;
+            }
+            :root{
+                --preto: #000000;
             }
