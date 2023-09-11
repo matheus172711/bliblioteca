@@ -46,7 +46,7 @@
 }
 
 .lista-menu__titulo, .lista-menu__item{
-    color: var(--roxo);
+    color: var(--amarelo);
     font-weight: 700;
     padding: 1em;
 }
