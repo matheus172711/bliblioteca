@@ -35,6 +35,8 @@
     }
     .lista-menu__titulo{
         color: var(--amarelo);
+        font-weight: 700;
+        padding: 1em;
     }
     .lista-menu__link{
         background: var(--roxo--degrade);
@@ -66,7 +68,7 @@
     width: auto;
 }
 .opções__botão{
-dispay: none;
+    dispay: none;
  }
 }
 @media screen and (min-width: 1024px){
